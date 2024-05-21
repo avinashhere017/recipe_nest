@@ -16,11 +16,3 @@
 5. Start the frontend development server: `npm start`
 6. Open the application in your browser: `http://localhost:3000`
 
-## Contributing:
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License:
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-## Contact:
-For any inquiries or support, please contact [project-owner-name](mailto:project-owner-email).
