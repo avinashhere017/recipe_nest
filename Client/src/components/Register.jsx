@@ -37,23 +37,10 @@ const Register = () => {
 
   return (
     <>
-      <div
-        className="container my-5 p-5"
-        style={{
-          width: "500px",
-          border: "2px solid yellow",
-          borderRadius: "10px",
-        }}
-      >
+      <ToastContainer />
+      <div className="container my-5 p-5" style={containerStyle}>
         <h2 className="text-center">Register</h2>
-        <form
-          onSubmit={registerHandler}
-          style={{
-            width: "420px",
-            margin: "auto",
-          }}
-          className="my-3 p-3"
-        >
+        <form onSubmit={registerHandler} className="my-3 p-3" style={formStyle}>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
               Name
@@ -96,7 +83,7 @@ const Register = () => {
             />
           </div>
 
-          <div className="container d-grid col-6">
+          <div className="d-grid">
             <button type="submit" className="btn btn-primary mt-3">
               Register
             </button>
@@ -105,6 +92,20 @@ const Register = () => {
       </div>
     </>
   );
+};
+
+const containerStyle = {
+  maxWidth: '100%',
+  border: '2px solid yellow',
+  borderRadius: '10px',
+  width: '90%',
+  maxWidth: '500px',
+  margin: 'auto',
+};
+
+const formStyle = {
+  maxWidth: '100%',
+  margin: 'auto',
 };
 
 export default Register;

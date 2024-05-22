@@ -1,0 +1,36 @@
+.recipe-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.recipe-image-container {
+  border: 2px solid yellow;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.recipe-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.recipe-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-ingredients {
+  margin-bottom: 20px;
+}
+
+.recipe-instructions {
+  margin-bottom: 20px;
+}
+
+.btn-back-to-home {
+  margin-top: 20px;
+}
